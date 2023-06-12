@@ -20,7 +20,7 @@ fid_pdf = fid_dist.pdf(x)
 test_pdf = test_dist.pdf(x)
 
 mapper.fit_from_pdf(x, fid_pdf)
-trans_x, transf_pdf = mapper.transform_pdf(x, test_pdf)
+transf_x, transf_pdf = mapper.transform_pdf(x, test_pdf)
 ```
 For a more concrete example, see the [example script](https://github.com/Richard-Sti/inv_pit/blob/master/example.py), which generates the following plot. In the left column, the transform is fitted from the PDF, whereas in the right column it is fitted directly from the CDF.
 
