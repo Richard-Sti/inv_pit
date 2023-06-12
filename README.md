@@ -26,3 +26,19 @@ For a more concrete example, see the [example script](https://github.com/Richard
 
 
 ![alt text](https://github.com/Richard-Sti/inv_pit/blob/master/example.png?raw=true)
+
+## Installation
+
+The code can be manually installed by cloning the repository,
+```bash
+git clone git@github.com:Richard-Sti/inv_pit.git
+```
+and then creating a virtual environment and installing it in it.
+```bash
+python3 -m venv venv_invpit
+source venv_invpit/bin/activate
+python -m pip install --upgrade pip
+python -m pip install --upgrade setuptools
+python -m pip install .
+```
+which will install the package in the virtual environment ``venv_invpit``.
