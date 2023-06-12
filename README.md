@@ -32,6 +32,7 @@ For a more concrete example, see the [example script](https://github.com/Richard
 The code can be manually installed by cloning the repository,
 ```bash
 git clone git@github.com:Richard-Sti/inv_pit.git
+cd inv_pit
 ```
 and then creating a virtual environment and installing it in it.
 ```bash
